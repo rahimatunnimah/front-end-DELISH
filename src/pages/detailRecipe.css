@@ -1,0 +1,66 @@
+.header-landing {
+  color: #2e266f;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+.title-food {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 90px;
+  position: absolute;
+  width: 600px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #2e266f;
+}
+
+.card-add-recipe {
+  width: 300px;
+}
+
+.title-ingredients {
+  width: 258px;
+  height: 62px;
+  left: 312px;
+  top: 1215px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 62px;
+  text-transform: capitalize;
+  color: #3f3a3a;
+}
+
+.title-video {
+  width: 258px;
+  height: 62px;
+  left: 312px;
+  top: 1215px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 62px;
+  text-transform: capitalize;
+  color: #3f3a3a;
+}
+
+.footer {
+  height: 50vh;
+  background-color: #efc81a;
+  margin-top: 100px !important;
+}
+
+.footer-title {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 48px;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}

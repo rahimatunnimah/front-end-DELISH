@@ -1,8 +1,12 @@
-/* .App {
-  background-color: #e5e5e5;
-  height: 100vh;
+.content-yellow {
+  background-color: #efc81a;
 }
-
+.opening-image {
+  opacity: 0.3;
+  transform: rotate(-180deg);
+  width: 640px;
+  height: 700px;
+}
 .content-center {
   display: flex;
   justify-content: center;
@@ -66,6 +70,7 @@
   font-style: Medium;
   font-size: 12px;
   line-height: 100%;
+  text-decoration: none;
 }
 
 .text-bottom {
@@ -73,10 +78,11 @@
   font-style: Medium;
   font-size: 14px;
   line-height: 100%;
-  margin-left: 180px;
-  margin-top: 30px;
+  margin-left: 220px;
+  margin-top: 10px;
 }
 
 .link-signup {
   color: #efc81a;
-} */
+  text-decoration: none;
+}
