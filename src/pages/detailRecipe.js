@@ -50,10 +50,11 @@ function AddRecipe() {
         <div className="col-sm-4">
           <div className="title-video">Video Step</div>
           <Button
-            className="btn-regis"
+            className="btn-video"
             variant="warning"
             type="submit"
           ></Button>
+          <i class="fas fa-play"></i>
         </div>
       </div>
 
