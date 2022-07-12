@@ -2,24 +2,10 @@
   background-color: #efc81a;
   height: 100vh;
 }
-.header-landing {
-  color: #2e266f;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 23px;
-  text-align: center;
-}
 
 .new-recipe-background {
   background-color: #efc81a;
   height: 65vh;
-}
-.icon-login {
-  width: 25px;
-  height: 25px;
-  border-radius: 25px;
 }
 
 .image-landing {
@@ -33,7 +19,7 @@
   position: absolute;
   left: 75px;
   top: 50px;
-  margin-top: 800px;
+  margin-top: 860px;
 }
 
 .image-new-recipe {
@@ -42,7 +28,6 @@
 
 .name-new-recipe {
   width: 470px;
-  margin-top: 70px;
 }
 
 .title-landing {
@@ -104,7 +89,16 @@
 
 .card-recent-recipe {
   width: 300px;
+  height: 320px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
   margin-bottom: 20px;
+}
+
+.classss {
+  margin-left: 150px !important;
+  margin-right: 150px !important;
 }
 
 .name-card-recent {
@@ -112,6 +106,7 @@
   bottom: 3%;
   left: 5%;
   width: 50%;
+  color: black;
 }
 
 .footer {
@@ -126,4 +121,40 @@
   line-height: 48px;
   margin-top: 150px;
   margin-bottom: 30px;
+}
+
+.brand-nav {
+  text-decoration: none;
+  color: #2e266f;
+  font-weight: bolder;
+}
+
+.nav-menu {
+  text-decoration: none;
+  color: #2e266f;
+}
+
+.nav-menu:hover {
+  color: black;
+}
+
+.icon-login {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+}
+
+.img-recent {
+  display: block;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.name-new-recipe {
+  margin-top: 15px;
+}
+
+.ingredients-new-recipe {
+  margin-top: 32px;
 }
