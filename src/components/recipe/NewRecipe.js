@@ -22,9 +22,9 @@ const NewRecipe = (props) => {
                     <div className="card text-white card-new-recipe">
                       <img
                         crossOrigin="anonymous"
-                        src={`http://localhost:8001/${props.data[0].recipe_image.substring(
+                        src={`http://localhost:8001/${props?.data[0]?.recipe_image?.substring(
                           7,
-                          props.data[0].recipe_image.length
+                          props?.data[0]?.recipe_image?.length
                         )}`}
                         className="image-new-recipe"
                         alt="..."
@@ -34,10 +34,10 @@ const NewRecipe = (props) => {
                 </div>
               </div>
               <div className="col-md-6">
-                <h2 className="name-new-recipe">{props.data[0].name}</h2>
+                <h2 className="name-new-recipe">{props?.data[0]?.name}</h2>
                 <hr className="line-new-recipe" />
                 <p className="ingredients-new-recipe">
-                  {props.data[0].ingredients}
+                  {props?.data[0]?.ingredients}
                 </p>
               </div>
             </>
