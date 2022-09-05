@@ -39,10 +39,7 @@ const DetailRecipe = () => {
         <div className="col-md-12 text-center">
           <img
             crossOrigin="anonymous"
-            src={`http://localhost:8001/${detailRecipe?.recipe_image?.substring(
-              7,
-              detailRecipe?.recipe_image?.length
-            )}`}
+            src={detailRecipe?.recipe_image}
             className="img-fluid image-detail rounded"
             alt="..."
           />

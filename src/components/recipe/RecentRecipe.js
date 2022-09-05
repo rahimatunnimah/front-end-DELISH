@@ -22,10 +22,7 @@ const RecentRecipe = (props) => {
               <div className="card card-recent-recipe">
                 <img
                   crossOrigin="anonymous"
-                  src={`http://localhost:8001/${item?.recipe_image?.substring(
-                    7,
-                    item?.recipe_image?.length
-                  )}`}
+                  src={item?.recipe_image}
                   className="card-img-top img-recent"
                   alt="..."
                 />
