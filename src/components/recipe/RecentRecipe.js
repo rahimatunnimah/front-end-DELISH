@@ -26,7 +26,9 @@ const RecentRecipe = (props) => {
                   className="card-img-top img-recent"
                   alt="..."
                 />
-                <h5 className="card-title name-card-recent">{item?.name}</h5>
+                <h5 className="card-title text-start name-card-recent">
+                  {item?.name}
+                </h5>
               </div>
             </Link>
           </div>

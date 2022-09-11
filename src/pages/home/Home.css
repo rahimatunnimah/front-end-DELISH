@@ -18,13 +18,12 @@
 .card-new-recipe {
   position: absolute;
   left: 75px;
-  top: 50px;
+  top: 30px;
   margin-top: 860px;
+  object-fit: cover;
+  width: 400px;
 }
 
-.image-new-recipe {
-  width: 450px;
-}
 
 .name-new-recipe {
   width: 470px;
@@ -98,6 +97,7 @@
   display: inline-block;
   overflow: hidden;
   margin-bottom: 20px;
+  object-fit: cover;
 }
 
 .classss {
@@ -107,11 +107,16 @@
 
 .name-card-recent {
   position: absolute;
-  bottom: 3%;
-  left: 5%;
-  width: 50%;
-  color:#3F3A3A;
-  ;
+  margin-top: 92%;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  z-index: 9;
+  width: 100%;
+  color:#FFF5EC;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .footer {
