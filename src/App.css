@@ -1,82 +1,70 @@
-/* .App {
-  background-color: #e5e5e5;
+
+.overflow {
+  overflow-x: hidden;
+}
+.left-side{
   height: 100vh;
+  background-image: url('./assets/bg-left.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position:fixed;
+  width: 50%;
 }
 
-.content-center {
-  display: flex;
-  justify-content: center;
+.logo img {
+  margin-top: 35vh;
 }
 
-.login-title {
-  font-style: Bold;
+.logo h2{
+  color: white;
+}
+
+.title{
+  font-weight: 700;
   font-size: 30px;
-  color: yellow;
-  display: flex;
-  padding-top: 150px;
+  line-height: 36px;
+  color: #EFC81A;
 }
 
-.login-description {
-  font-style: Regular;
+.description{
+  font-weight: 400;
   font-size: 18px;
-  color: #8692a6;
-  padding-bottom: 20px;
+  line-height: 28px;
+  color: #8692A6;
 }
 
-.form-email {
-  border: Solid #efc81a 1px;
-  width: 426px;
-  height: 64px;
+.right-side{
+  height: 100vh;
+  position: relative;
 }
 
-.form-pswd {
-  border: Solid #8692a6 1px;
-  width: 426px;
-  height: 64px;
-}
 .form-label {
-  font-style: Medium;
-  font-size: 16px;
-  line-height: 19px;
-  line-height: 100%;
-  color: #696f79;
-  margin-left: 100px;
-}
-
-.btn-login {
-  width: 426px;
-  height: 64px;
-  color: #e5e5e5;
-  margin-top: 20px;
-}
-
-.content-check {
-  margin-left: 100px;
-}
-
-.link-forgot {
-  display: flex;
-  justify-content: right;
-  margin-top: 15px;
-  margin-right: 60px;
-}
-
-.link {
-  color: #999999;
-  font-style: Medium;
-  font-size: 12px;
-  line-height: 100%;
-}
-
-.text-bottom {
-  color: #999999;
-  font-style: Medium;
   font-size: 14px;
-  line-height: 100%;
-  margin-left: 180px;
-  margin-top: 30px;
+  color: #696f79;
 }
 
-.link-signup {
-  color: #efc81a;
-} */
+.form-control {
+  height: 45px;
+}
+
+.form-control:focus {
+  box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11) !important;
+  border-color: #efc81a !important;
+}
+
+.btn-submit {
+  color: white;
+  height: 45px;
+}
+
+.link-auth {
+  text-decoration: none;
+  color: yellow;
+}
+
+
+.form-select:focus {
+  box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11) !important;
+  border-color: #efc81a !important;
+}

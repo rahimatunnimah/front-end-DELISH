@@ -54,6 +54,10 @@
   top: 420px;
 }
 
+.btn-search {
+  height: 45px;
+}
+
 .title-new-recipe {
   border-left: 20px solid #efc81a;
   height: 80px;
@@ -106,7 +110,8 @@
   bottom: 3%;
   left: 5%;
   width: 50%;
-  color: black;
+  color:#3F3A3A;
+  ;
 }
 
 .footer {

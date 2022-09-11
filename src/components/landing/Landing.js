@@ -1,5 +1,6 @@
 import React from "react";
 import imageLanding from "../../assets/delicious food.png";
+import SearchInput from "./SearchInput";
 
 const Banner = () => {
   return (
@@ -9,14 +10,7 @@ const Banner = () => {
           <div className="row">
             <div className="col-md-7">
               <div className="title-landing">Delish Kitchen</div>
-              <div className="input-group flex-nowrap search-landing">
-                <input
-                  type="text"
-                  className="form-control"
-                  aria-describedby="addon-wrapping"
-                  placeholder="search food"
-                />
-              </div>
+              <SearchInput />
             </div>
             <div className="col-md-5">
               <div>

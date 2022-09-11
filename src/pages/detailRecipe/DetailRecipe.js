@@ -1,29 +1,43 @@
 import React, { useState, useEffect } from "react";
 import "./DetailRecipe.css";
-
-import Comment from "../../components/comment/commentRecipe";
+import AddComment from "../../components/comment/AddComment";
+import CommentRecipe from "../../components/comment/CommentRecipe";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 
 const DetailRecipe = () => {
   const [detailRecipe, setDetailRecipe] = useState({});
+  const [dataComment, setDataComment] = useState([]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     getDetailRecipe();
-  });
+    getComment();
+  }, [dataComment.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const idRecipe = useParams();
+  const { id } = idRecipe;
 
-  const getDetailRecipe = async () => {
-    try {
-      const response = await axios.get(
-        `${process.env.REACT_APP_URL}recipes/${idRecipe.id}`
-      );
-      const data = response.data.data[0];
-      setDetailRecipe(data);
-    } catch (error) {
-      console.log(error);
-    }
+  const getDetailRecipe = () => {
+    axios
+      .get(`${process.env.REACT_APP_URL}recipes/detail/${id}`)
+      .then((res) => {
+        setDetailRecipe(res?.data?.data[0]);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
+  const getComment = () => {
+    axios
+      .get(`${process.env.REACT_APP_URL}comment/recipe/${id}`)
+      .then((res) => {
+        setDataComment(res?.data?.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
@@ -52,7 +66,8 @@ const DetailRecipe = () => {
             <p>{detailRecipe?.ingredients}</p>
           </div>
         </div>
-        <Comment />
+        <AddComment data={detailRecipe} />
+        <CommentRecipe data={dataComment} />
       </div>
     </>
   );

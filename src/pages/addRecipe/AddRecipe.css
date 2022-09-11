@@ -8,7 +8,51 @@
   padding-top: 50px;
 }
 
-.form-input-ingredients {
-  height: 200px;
-  background: #f6f5f4;
+.form-input-add-ingredients {
+  height: 200px !important;
+  background-color: #f6f5f4 !important;
+  border-color: #f6f5f4 !important;
+}
+.form-add-recipe {
+  margin-top: 100px !important;
+  margin-left: 15% !important;
+  margin-right: 15% !important;
+}
+
+/* Button upload */
+.label-button-upload {
+  background-color: #f6f5f4;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.icon-upload {
+  text-align: center;
+  position: relative;
+  top: 42%;
+}
+
+.form-input-add {
+  background-color: #f6f5f4 !important;
+  border-color: #f6f5f4 !important;
+ 
+}
+
+.title-icon-upload {
+  color: #666666;
+}
+
+.button-add-recipe {
+  width: 100%;
+  height: 50px;
+}
+
+.form-select-category{
+  background-color: #f6f5f4 !important;
+  border-color: #f6f5f4 !important;
 }
