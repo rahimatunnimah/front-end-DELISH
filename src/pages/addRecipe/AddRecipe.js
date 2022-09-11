@@ -11,7 +11,7 @@ function AddRecipe() {
   const [ingredients, setIngredients] = useState("");
   const [recipeImage, setRecipeImage] = useState({});
   const [category, setCategory] = useState([]);
-  const [idCategory, setIdCategory] = useState();
+  const [idCategory, setIdCategory] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
   const [titleImage, setTitleImage] = useState("Add Photo Recipe");
 
@@ -21,7 +21,7 @@ function AddRecipe() {
 
   useEffect(() => {
     getCategory();
-  }, [category]);
+  }, []);
 
   const getCategory = () => {
     axios
@@ -75,7 +75,7 @@ function AddRecipe() {
         setIsLoading(false);
       });
   };
-
+  console.log("id category", idCategory);
   return (
     <>
       <div className="container">
