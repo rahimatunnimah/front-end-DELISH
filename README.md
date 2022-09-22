@@ -1,70 +1,285 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
 
-## Available Scripts
+<br />
 
-In the project directory, you can run:
+<div align="center">
 
-### `npm start`
+<a href="">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="https://res.cloudinary.com/df9tcvnrs/image/upload/v1663852780/next-delish/logo_oz2285.png" alt="Logo" width="150px">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</a>
 
-### `npm test`
+<h3 align="center">Delish Kitchen - Web app</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
 
-### `npm run build`
+<a href="https://delish-kitchen-web.vercel.app/">View Demo</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+·
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a href="https://github.com/rahimatunnimah/front-end-DELISH/issues">Report Bug</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+·
 
-### `npm run eject`
+<a href="https://github.com/rahimatunnimah/front-end-DELISH/issues">Request Feature</a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- TABLE OF CONTENTS -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Table of Contents
 
-## Learn More
+<details>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<summary>Table of Contents</summary>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<ol>
 
-### Code Splitting
+<li>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<a href="#about-the-project">About The Project</a>
 
-### Analyzing the Bundle Size
+<ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<li><a href="#built-with">Built With</a></li>
 
-### Making a Progressive Web App
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+</li>
 
-### Advanced Configuration
+<li>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<a href="#getting-started">Getting Started</a>
 
-### Deployment
+<ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<li><a href="#prerequisites">Prerequisites</a></li>
 
-### `npm run build` fails to minify
+<li><a href="#installation">Installation</a></li>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<li><a href="#setup-env-example">Setup .env example</a></li>
+
+</ul>
+
+</li>
+
+<li><a href="#screenshoots">Screenshots</a></li>
+
+<li><a href="#contributing">Contributing</a></li>
+
+<li><a href="#related-project">Related Project</a></li>
+
+<li><a href="#our-team">Contact</a></li>
+
+<li><a href="#license">License</a></li>
+
+</ol>
+
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+**Delish Kitchen** is a website for users to share easily described food recipes with pictures, making it easier for users to learn the recipes. In addition, users can provide suggestions for recipes to other users through the comments column too.
+
+### Built With
+
+This app was built with some technologies below:
+
+- [Bootstarp](https://getbootstrap.com/)
+
+- [Javascript](https://www.javascript.com/)
+
+- [React](https://reactjs.org/)
+
+- [Axios](https://axios-http.com/)
+
+- [Redux](https://react-redux.js.org/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+### Prerequisites
+
+Before going to the installation stage there are some software that must be installed first.
+
+- [NodeJs](https://nodejs.org/en/download/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Installation
+
+If you want to run this project locally, I recommend you to configure the [back-end](https://github.com/rahimatunnimah/rest-api-DELISH) first before configuring this repo front-end.
+
+- Clone the repo
+
+```
+
+git clone https://github.com/rahimatunnimah/front-end-DELISH.git
+
+```
+
+- Go To Folder Repo
+
+```
+
+cd front-end-DELISH
+
+```
+
+- Install Module
+
+```
+
+npm install
+
+```
+
+- <a href="#setup-env">Setup .env</a>
+
+- Type ` npm run dev` To Start Website
+
+- Type ` npm run start` To Start Production
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Setup .env
+
+Create .env file in your root project folder.
+
+```
+
+REACT_APP_URL= https://delish-kitchen.herokuapp.com/api/
+
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Screenshoots
+
+<p align="center" display=flex>
+
+<table>
+
+<tr>
+
+<td><image src="https://res.cloudinary.com/df9tcvnrs/image/upload/v1662997591/react-delish/login_rhemg2.png" alt="Login Page" width=100%></td>
+
+<td><image src="https://res.cloudinary.com/df9tcvnrs/image/upload/v1662997468/react-delish/register_eh5p9t.jpg" width=100%/></td>
+
+</tr>
+
+<tr>
+
+<td>Login Page</td>
+
+<td>Register Page</td>
+
+</tr>
+
+<tr>
+
+<td><image src="https://res.cloudinary.com/df9tcvnrs/image/upload/v1663855679/react-delish/landing_yqstcv.png" alt="landing" width=100%></td>
+
+<td><image src="https://res.cloudinary.com/df9tcvnrs/image/upload/v1663856974/react-delish/searach_pxfrzk.png" alt="Search" width=100%/></td>
+
+</tr>
+
+<tr>
+
+<td>Landing Page</td>
+
+<td>Search Page</td>
+
+</tr>
+
+<tr>
+
+<td><image src="https://res.cloudinary.com/df9tcvnrs/image/upload/v1662997553/react-delish/detail-recipe_qp0ttk.png" width=100%></td>
+
+<td><image src="https://res.cloudinary.com/df9tcvnrs/image/upload/v1662997466/react-delish/add-recipe_mzm8tj.png" alt="Add Recipe" width=100%/></td>
+
+</tr>
+
+<tr>
+
+<td>Detail Recipe</td>
+
+<td>Add Recipe</td>
+
+</tr>
+
+<tr>
+
+<td><image src="https://res.cloudinary.com/df9tcvnrs/image/upload/v1662997569/react-delish/profile_ashbru.png" alt="Profile" width=100%></td>
+
+</tr>
+
+<tr>
+
+<td>Profile</td>
+
+</tr>
+
+</table>
+
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Related Project
+
+:rocket: [`Backend Delish-Kitchen`](https://github.com/rahimatunnimah/rest-api-DELISH)
+
+:rocket: [`Frontend Delish-Kitchen`](https://github.com/rahimatunnimah/front-end-DELISH)
+
+:rocket: [`API`](https://delish-kitchen.herokuapp.com)
+
+:rocket: [`Demo Delish-Kitchen`](https://delish-kitchen-web.vercel.app/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Developer
+
+<center>
+
+<table>
+
+<tr>
+
+<td align="center">
+
+<a href="https://github.com/rahimatunnimah">
+
+<img width="100" src="https://avatars.githubusercontent.com/u/59507749?s=96&v=4" alt="Ni'mah"><br/>
+
+<sub><b>Rahimatun Ni'mah</b></sub> <br/>
+
+<sub>Fullstack Website Developer</sub>
+
+</a>
+
+</td>
+
+<tr>
+
+</table>
+
+</center>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+
+Distributed under the [MIT](/LICENSE) License.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
