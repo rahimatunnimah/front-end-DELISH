@@ -26,7 +26,7 @@ function Search() {
           <h3 className="mt-4">Search Result</h3>
           <div className="row">
             {listSearch?.map((item, index) => (
-              <div key={index}>
+              <div key={index} className="col-md-4 mt-3 text-center">
                 <CardItemSearch item={item} />
               </div>
             ))}

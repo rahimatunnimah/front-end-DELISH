@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function CardItemSearch({ item }) {
   return (
-    <div className="col-md-4 mt-3 text-center">
+    <>
       <Link to={`/detail-recipe/${item?.id}`}>
         <div className="card card-my-recipe">
           <img
@@ -17,7 +17,7 @@ function CardItemSearch({ item }) {
           </h5>
         </div>
       </Link>
-    </div>
+    </>
   );
 }
 
